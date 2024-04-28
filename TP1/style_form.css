@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+form{
+    width: 500px;
+margin: auto;
+gap: 5px;
+}
+.choix ,.com{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+textarea{
+    resize: none;
+}
+.inp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* justify-content: space-evenly; */
+}
+

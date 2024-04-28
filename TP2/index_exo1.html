@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<style>
+    .containers{
+        display:grid;
+        grid-template-columns:  repeat(3,1fr);
+        grid-template-rows: repeat(4,600px);
+    
+    }
+
+    .droite{
+        grid-column-start: 3 ;
+        grid-row: auto;
+    }
+    .Normal{
+        font-style: normal;
+    }
+    .Oblique{
+        font-style: oblique;
+    }
+    .Italique{
+        font-style: italic;
+    }
+    .Souligné{
+        text-decoration: underline;
+    }
+    .Barré{
+        text-decoration:line-through;
+    }
+    .Sur-ligné{
+        text-decoration: overline;
+    }
+    .la-100{
+        font-weight: 100;
+    }
+    .la-200{
+        font-weight: 200;
+    }
+    .la-300{
+        font-weight: 300;
+    }
+    .la-400{
+        font-weight: 400;
+    }
+    .la-500{
+        font-weight: 500;
+    }
+    .la-600{
+        font-weight: 600;
+    }
+    .la-700{
+        font-weight: 700;
+    }
+    .la-normal{
+        font-weight: normal;
+    }
+    .la-bold{
+        font-weight: bold;
+    }
+    .question-2{
+        text-decoration: underline;
+        color: brown;
+    }
+    .la-normal2{
+        font-size: initial;
+    }
+    .la-small{
+        font-size:small;
+    }
+    .la-xsmall{
+        font-size: x-small;
+    }
+    .la-xxsmall{
+        font-size: xx-small;
+    }
+    .la-large{
+        font-size: large;
+    }
+    .la-xlarge{
+        font-size: x-large;
+    }
+    .la-xxlarge{
+        font-size: xx-large;
+    }
+    .la-15{
+        font-size: 15px;
+    }
+    .la-2{
+        font-size: 2cm;
+    }
+    .la-5r{
+        font-size: 5rm;
+    }
+    .la-5e{
+        font-size: 5em;
+    }
+    .la-150{
+        font-size: 150%;
+    }
+
+    .non1{
+        font-family: serif ;
+    }
+    .non2{
+        font-family: sans-serif;
+    }
+    .non3{
+        font-family: cursive;
+    }
+    .non4{
+        font-family: fantasy;
+    }
+    .non5{
+        font-family: monospace;
+    }
+    .capit{
+        text-transform: capitalize;
+    }
+    .upp{
+        text-transform: uppercase ;
+    }
+    .loww{
+        text-transform:lowercase ;
+    }
+    .noon{
+        text-transform: none;
+        
+    }
+    .pc{
+        color: aquamarine;
+    }
+    .bg{
+        background-color: seagreen;
+    }
+    
+</style>
+
+<body>
+    <div class="containers">
+    <div class="card">
+        <H2>partie texte </H2>
+    <p class="Normal"> ceci est un texte normal</p>
+    <p class="Oblique">ceci est un texte Oblique</p>
+    <p class="Italique">ceci est un texte en italique</p>
+    <p class="Souligné">ceci est un texte Souligné</p>
+    <p class="Barré">ceci est un texte barré</p>
+    <p class="Sur-ligné">ceci est un texte Sur-ligné</p>
+    </div>
+
+    <div class="card">
+        <h2>parti font-weight</h2>
+        <p class="la-100">ceci est un texte avec une font-weight de 100</p>
+        <p class="la-200">ceci est un texte avec une font-weight de 200</p>
+        <p class="la-300">ceci est un texte avec une font-weight de 300</p>
+        <p class="la-400">ceci est un texte avec une font-weight de 400</p>
+        <p class="la-500">ceci est un texte avec une font-weight de 500</p>
+        <p class="la-600">ceci est un texte avec une font-weight de 600</p>
+        <p class="la-700">ceci est un texte avec une font-weight de 700</p>
+        <p class="la-normal">ceci est un texte avec une font-weight en normal</p>
+        <p class="la-bold">ceci est un texte avec une font-weight en bold</p>
+        <p class="question-2">la valeur normal est egal au font-weight de 100 a 500</p>
+        <p class="question-2">la valeur bold est egal a une font-weight 600 et 700</p>
+    </div>
+
+    <div class="droite">
+        <h3>parti font-size</h3>
+        <p class="la-normal2">ceci est texte avoir une font-size ' normal '</p>
+        <p class="la-small">ceci est texte avoir une font-size ' small '</p>
+        <p class="la-xsmall">ceci est texte avoir une font-size '  xsmall'</p>
+        <p class="la-xxsmall">ceci est texte avoir une font-size ' xxsmall '</p>
+        <p class="la-large">ceci est texte avoir une font-size 'large  '</p>
+        <p class="la-xlarge">ceci est texte avoir une font-size '  xlarge'</p>
+        <p class="la-xxlarge">ceci est texte avoir une font-size ' xxlarge '</p>
+        <p class="la-15">ceci est texte avoir une font-size ' 15% '</p>
+        <p class="la-2">ceci est texte avoir une font-size ' 2cm '</p>
+        <p class="la-5r">ceci est texte avoir une font-size ' 5rm '</p>
+        <p class="la-5e">ceci est texte avoir une font-size ' 5em '</p>
+        <p class="la-150">ceci est texte avoir une font-size ' 150% '</p>
+       <p class="question-2">la mesure en pourcentage agi comme </p>
+       <p class="question-2">la mesure en em agi comme </p>
+       <p class="question-2">la mesure en rm agi comme </p>
+    </div>
+
+    <div class="card non" >
+        <div class="non1">Lorem ipsum dolor sit.
+        </div>
+        <div class="non2">Lorem ipsum dolor sit.</div>
+        <div class="non3">Lorem ipsum dolor sit.</div>
+        <div class="non4">Lorem ipsum dolor sit.</div>
+        <div class="non5">Lorem ipsum dolor sit.</div>
+    </div>
+
+    <div class="card">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td colspan="2">on utilise text-decoration </td>
+                </tr>
+                <tr>
+                    <th>
+                        code en css
+                    </th>
+                    <th> exemple</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>capitalize</th>
+                    <td class="capit">Lorem ipsum dolor sit.
+                    </td>
+                </tr>
+                <tr>
+                    <th>uppercase </th>
+                    <td class="upp">Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <th>lowercase</th>
+                    <td class="loww">Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <th>none</th>
+                    <td class="noon">Lorem ipsum dolor sit.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>on utilise @font-face pour importer une police d'ecriture</p>
+    <div class="card">
+        <p class="pc">pour modifier la couleur de texte on utilise "color: couleur_voulu"</p>
+        <p class="bg">pour modifier la couleur de l'arriere plan on utilise "background-color: couleur_voulu "</p>
+        <p>pour modifier la hauteur d'un tableau on utilise height et pour la largeur width</p>
+    </div>
+</div>
+
+</body>
+</html>

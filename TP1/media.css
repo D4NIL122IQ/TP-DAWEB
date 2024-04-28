@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+  form{
+    display: flex;
+      flex-direction: column;
+  }
+  input{
+    height: 30px;
+    width: 300px;
+  }
+  details{
+    font-size: xx-large;
+  }
+ 

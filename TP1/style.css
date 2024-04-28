@@ -1,0 +1,25 @@
+/* *,::after,::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+
+body 
+{
+    background-color: #7452689e;
+    text-align: center;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+ul , ol 
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div{
+    border: 1px solid black;
+}

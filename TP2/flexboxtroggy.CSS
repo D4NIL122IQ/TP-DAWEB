@@ -1,0 +1,120 @@
+.cas1{
+    /* pour avoir l'element a droite de la page  */
+    justify-content: flex-end
+}
+.cas2{
+    /* pour centrer l'element  */
+    justify-content: center
+}
+.cas3{
+    /* pour avoir un espace entre chaque element et entre les derniers elements et les bords de page */
+    justify-content: space-around
+}
+.cas4{
+    /* afin d'espacer les elements et prendre tout l'espace disponible dans la page */
+    justify-content: space-between
+}
+.cas5{
+    /* afin d'avoir l'element en bas de la page  */
+    align-items: end
+}
+.cas6{
+    /* pour centrer l'element au milieu selon l'axe X  */
+    align-items: center;
+    /* pour centrer l'element au milieu selon l'axe Y */
+    justify-content: center
+}
+.cas7{
+     /* pour avoir un espace entre chaque element et entre les derniers elements et les bords de page */
+    justify-content: space-around;
+    /* afin de positionné les elements en bas de page  */
+    align-items: end;
+}
+.cas8{
+    /* afin d'inverser l'ordre des elements sur la meme ligne  */
+    flex-direction: row-reverse
+}
+.cas9{
+    /* afin de positionné les elements en colonne  */
+    flex-direction: column
+}
+.cas10{
+    /* afin d'inverser l'ordre des elements sur la meme ligne  */
+    flex-direction: row-reverse;
+    /* pour positionné les elements a gauche de la page  */
+    justify-content: start;
+}
+.cas11{
+     /* afin de positionné les elements en colonne  */
+    flex-direction: column;
+     /* afin de positionné les elements en bas de page  */
+    justify-content: end;
+}
+.cas12{
+    /* afin de positionné les elements en colonne et inverser l'ordre des elements   */
+    flex-direction: column-reverse;
+    /* afin d'espacer les elements et prendre tout l'espace disponible dans la page */
+    justify-content: space-between
+}
+.cas13{
+     /* afin d'inverser l'ordre des elements sur la meme ligne  */
+    flex-direction: row-reverse;
+    /* pour positionné les elements en bas de page  */
+    align-items: end;
+    /* afin de centrer les elements  */
+    justify-content: center;
+}
+.cas14{
+    /* pour avancé l'elements jaune vers la droite  */
+    order: 1;
+}
+.cas15{
+     /* pour avancé l'elements jaune vers la gauche */
+    order: -1;
+}
+.cas16{
+    /* afin de positionné un seul element (le jaune ) en bas de page  */
+    align-self: end
+}
+.cas17{
+    /* afin de positionné un seul element (le jaune ) en bas de page  */
+    align-self: end;
+order: 1;
+}
+.cas18{
+    /* afin de ne pas entasser les elements (a cause du grand nombre d'elements pour le peu d'espace disponible) on permet le saut de ligne pour la repartition des elements */
+    flex-wrap: wrap;
+}
+.cas19{
+     /* afin de positionné les elements en colonne  */
+    flex-direction: column;
+    /* permettre le saut de ligne en cas de besoin  */
+    flex-wrap: wrap;
+}
+.cas20{
+    /* au lieu d'etuliser deux propriete on utilise une seule pour mettre les elements en colonne et permettre le saut de ligne  */
+    flex-flow: column wrap;
+}
+.cas21{
+    /* afin de positionné les elements en debut de page  */
+    align-content: flex-start;
+}
+
+.cas22{
+    /* afin de positionné les elements en fin de page  */
+    align-content: flex-end;
+}
+.cas23{
+      /* afin d'inverser l'ordre des elements et les mettre en colonne   */
+    flex-direction: column-reverse;
+    /* afin de centrer les elements */
+    align-content: center;
+}
+.cas24{
+    /* pour mettre les elements en colonne et inverser l'ordre et permettre le saut de ligne en inverse */
+    flex-flow: column-reverse wrap-reverse;
+    /* pour laisser de l'espace entre les elements et coller les bords de page  */
+    align-content: space-between;
+    /* pour centrer les elements  */
+    justify-content: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <title>Formulaire</title>
+</head>
+
+<style>
+    form{
+        display: grid;
+    }
+</style>
+<body>
+    <h1>FORMULAIRE</h1>
+    <form action="#" method="post">
+        
+        <div class="nom inp">
+        <label for="name">NOM :</label>
+        <input type="text" name="NOM" id="name" placeholder="ait ouchen">
+    </div>
+    <div class="prenom inp">
+        <label for="first-name">Prenom :</label>
+        <input type="text" name="first-name" id="first-name" placeholder="hamid">
+    </div>
+ 
+        <div class="choix inp">
+            <p>votre etat civile :</p>
+        <label for="Civilite">Mme</label>
+        <input type="radio" name="Civilite" id="madame">
+        <label for="Civilite">Mlle</label>
+        <input type="radio" name="Civilite" id="mademoiselle"> 
+        <label for="Civilite">M</label>
+        <input type="radio" name="Civilite" id="monsieur">
+    </div>
+    <div class="num inp">
+        <label for="numero">Numero :</label>
+        <input type="number" name="numerp" id="numero" placeholder="+213 .." minlength="10" maxlength="12">
+    </div>
+        <div class="chek inp">
+        <input type="checkbox" name="choix" id="choix" checked>
+        <label for="choix">Je souhaite être appelé à son numéro pour me répondre</label>
+    </div>
+    <div class="com inp">
+        <label for="Commentaire">Commentaire : </label>
+        <textarea name="Commentaire" id="Commentaire" rows="10" placeholder="ecrire ici !"></textarea>
+    </div>
+    <div class="mail inp">
+        <label for="monemail">Email : </label>
+        <input type="email" name="monemail" id="monemail">
+    </div>
+    <div class="col inp">
+        <label for="macouleur">Couleur des cheveux</label>
+        <input type="color" name="macouleur" id="macouleur">
+    </div>
+    <div class="inp">
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="age">
+    </div>
+    <div class="inp">
+        <label for="photo">Photo : </label>
+        <input type="file" name="photo" id="photo">
+    </div>
+        <div class="btn">
+        <button type="submit">Envoyer</button>
+        <button type="reset">Remettre-à-Zéro</button>
+    </div>
+        <!-- <fieldset>
+            <legend>Contact info</legend>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name">
+          
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name">
+          </fieldset>
+           -->
+    </form>
+</body>
+</html>
