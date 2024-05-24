@@ -1,0 +1,16 @@
+.jeu{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red
+}
+
+.score{
+    font-size: xx-large;
+}
+.vert{
+    background-color: green;
+}
+
+.rouge{
+    background-color: red;
+}
